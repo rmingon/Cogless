@@ -5,7 +5,7 @@
 	(uuid "c3e282ef-3af7-40a2-818f-0507e6c2dd21")
 	(paper "A4")
 	(lib_symbols
-		(symbol "AON6500:AON6500"
+		(symbol "AOD514:AOD514"
 			(pin_names
 				(offset 1.016)
 			)
@@ -25,7 +25,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "AON6500"
+			(property "Value" "AOD514"
 				(at -8.89 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -36,7 +36,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "AON6500:TRANS_AON6500"
+			(property "Footprint" "AOD514:TRANS_AOD514"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -59,18 +59,7 @@
 					)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MF" "Alpha &"
+			(property "Description" "N-Channel 30V 17A (Ta), 46A (Tc) 2.5W (Ta), 50W (Tc) Surface Mount TO-252, (D-Pak)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -82,7 +71,7 @@
 					(justify bottom)
 				)
 			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "1 mm"
+			(property "MF" "Alpha & Omega Semiconductor Inc."
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -94,7 +83,19 @@
 					(justify bottom)
 				)
 			)
-			(property "Package" "DFN-8 Alpha &amp; Omega Semiconductor"
+			(property "MAXIMUM_PACKAGE_HEIGHT" "2.4 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "None"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -118,7 +119,7 @@
 					(justify bottom)
 				)
 			)
-			(property "Check_prices" "https://www.snapeda.com/parts/AON6500/Alpha/view-part/?ref=eda"
+			(property "Check_prices" "https://www.snapeda.com/parts/AOD514/Alpha/view-part/?ref=eda"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -130,7 +131,7 @@
 					(justify bottom)
 				)
 			)
-			(property "STANDARD" "Manufacturer Recommendations"
+			(property "STANDARD" "Manufacturer recommendations"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -142,7 +143,7 @@
 					(justify bottom)
 				)
 			)
-			(property "PARTREV" "F"
+			(property "PARTREV" "V"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -154,7 +155,7 @@
 					(justify bottom)
 				)
 			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/AON6500/Alpha/view-part/?ref=snap"
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/AOD514/Alpha/view-part/?ref=snap"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -166,19 +167,7 @@
 					(justify bottom)
 				)
 			)
-			(property "MP" "AON6500"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Description_1" "N-Channel 30 V 71A (Ta), 200A (Tc) 7.3W (Ta), 83W (Tc) Surface Mount 8-DFN (5x6)"
+			(property "MP" "AOD514"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -202,7 +191,7 @@
 					(justify bottom)
 				)
 			)
-			(property "MANUFACTURER" "Alpha and Omega"
+			(property "MANUFACTURER" "Alpha & Omega Semiconductor"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -214,7 +203,7 @@
 					(justify bottom)
 				)
 			)
-			(symbol "AON6500_0_0"
+			(symbol "AOD514_0_0"
 				(polyline
 					(pts
 						(xy 0 2.54) (xy 0 -2.54)
@@ -454,7 +443,7 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at -2.54 -2.54 0)
 					(length 2.54)
 					(name ""
 						(effects
@@ -481,43 +470,7 @@
 							)
 						)
 					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
 					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -535,7 +488,7 @@
 							)
 						)
 					)
-					(number "5_8"
+					(number "4"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1777,6 +1730,162 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1900,6 +2009,172 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Jumper:Jumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.794 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Open"
+				(at 0 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, open"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_0_1"
+				(arc
+					(start -1.524 1.27)
+					(mid 0 1.778)
+					(end 1.524 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2311,6 +2586,58 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "short if below 16V (3S/4S)"
+		(exclude_from_sim no)
+		(at 39.37 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f6a82e11-46ed-4c33-9e82-e40fae462b9a")
+	)
+	(junction
+		(at 30.48 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04840a90-1076-4236-b4d3-1e414b1b808c")
+	)
+	(junction
+		(at 26.67 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20cbd8aa-48fa-44d3-a85f-72c73e6053b5")
+	)
+	(junction
+		(at 60.96 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ea65d6e-ee80-4aaa-bee8-b91a1a8c52ae")
+	)
+	(junction
+		(at 222.25 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2fa9d915-fc2f-48bf-8baf-44d81faa17cf")
+	)
+	(junction
+		(at 149.86 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31eab89b-5939-4b39-9ce3-a57792486a96")
+	)
+	(junction
+		(at 242.57 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c03bce3-1d8f-4999-9dfc-217fe79c7d48")
+	)
+	(junction
+		(at 176.53 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f5857ac-aa96-4b45-8170-b3510abd0f60")
+	)
 	(junction
 		(at 242.57 48.26)
 		(diameter 0)
@@ -2318,19 +2645,13 @@
 		(uuid "59097a4e-d9a9-45b4-b037-dfa431ca6b75")
 	)
 	(junction
-		(at 196.85 48.26)
+		(at 196.85 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "62d3f1aa-925e-4ae8-b653-6a7dd10eb7ba")
+		(uuid "5a2d32c5-6274-4252-b4df-868d6b21af1e")
 	)
 	(junction
-		(at 26.67 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "648c98c4-3aca-4231-a7da-8d623c445cd7")
-	)
-	(junction
-		(at 130.81 38.1)
+		(at 130.81 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "65573f33-3a49-45c9-92aa-66b61250e21c")
@@ -2354,22 +2675,22 @@
 		(uuid "73dca24d-2213-4dc5-af93-77e89fac180a")
 	)
 	(junction
+		(at 39.37 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a289862-1d40-42d1-93a7-95244133695b")
+	)
+	(junction
 		(at 149.86 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c14712b-663e-4e8d-a7c5-7d2238a98405")
 	)
 	(junction
-		(at 142.24 48.26)
+		(at 142.24 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "832fdc7b-f5d0-4b2b-a052-8fab2f606b94")
-	)
-	(junction
-		(at 149.86 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9026b8b8-6025-4bdc-bbd1-e3c485eac10d")
 	)
 	(junction
 		(at 196.85 63.5)
@@ -2378,10 +2699,34 @@
 		(uuid "945dffeb-7eca-4986-8c74-dcec7c719eb5")
 	)
 	(junction
+		(at 26.67 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94a825ed-67d6-43a3-b774-148ceab3cc39")
+	)
+	(junction
 		(at 234.95 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac22427d-1e0d-4171-a378-e44d9f39c197")
+	)
+	(junction
+		(at 128.27 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3eed376-a47d-4441-b85d-621bcc38cf98")
+	)
+	(junction
+		(at 60.96 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba4f8eae-bb82-489e-9382-63b9bf26c2b5")
+	)
+	(junction
+		(at 149.86 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbe3272e-1ce6-4dd0-8fcb-f0fa0698771f")
 	)
 	(junction
 		(at 49.53 119.38)
@@ -2390,10 +2735,16 @@
 		(uuid "c1d26587-aff9-4035-be7f-e83fd1ec8bcc")
 	)
 	(junction
-		(at 177.8 38.1)
+		(at 177.8 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1e00299-91a1-40f2-95f1-55e36014b8fa")
+	)
+	(junction
+		(at 39.37 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3913bf0-3ad0-4763-b68e-d166698a47c8")
 	)
 	(junction
 		(at 36.83 60.96)
@@ -2402,10 +2753,34 @@
 		(uuid "d33438b5-daf4-4c70-9fed-93a73e7716c4")
 	)
 	(junction
-		(at 189.23 48.26)
+		(at 176.53 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e442d460-ee74-488f-b46b-9ca6b226aa79")
+	)
+	(junction
+		(at 17.78 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e964b666-0d47-4bec-88c0-5487390691fb")
+	)
+	(junction
+		(at 189.23 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9786d26-9d60-4b90-8f27-3c2e4c04f543")
+	)
+	(junction
+		(at 222.25 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb92fe17-0cca-40d1-b339-c1117c88fbcd")
+	)
+	(junction
+		(at 30.48 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0e8832c-d17e-483a-8743-86cd2223d2eb")
 	)
 	(junction
 		(at 49.53 127)
@@ -2413,9 +2788,31 @@
 		(color 0 0 0 0)
 		(uuid "f1db5224-584d-416d-8ad4-3aa3994bda98")
 	)
+	(junction
+		(at 127 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3675e2a-c41e-4e46-8437-074c27aee01a")
+	)
+	(junction
+		(at 196.85 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7da9b3d-df33-48c0-988e-933521d52bfa")
+	)
 	(wire
 		(pts
-			(xy 49.53 127) (xy 67.31 127)
+			(xy 175.26 31.75) (xy 176.53 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02552aef-7d17-4cda-a02e-ce448cde945a")
+	)
+	(wire
+		(pts
+			(xy 49.53 127) (xy 60.96 127)
 		)
 		(stroke
 			(width 0)
@@ -2445,6 +2842,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 35.56) (xy 176.53 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0892e892-3737-4e83-a5b5-c1f1d86d45c4")
+	)
+	(wire
+		(pts
 			(xy 196.85 63.5) (xy 149.86 63.5)
 		)
 		(stroke
@@ -2455,23 +2862,23 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 38.1) (xy 175.26 38.1)
+			(xy 128.27 58.42) (xy 128.27 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10d6fdf3-1e4b-4565-98fb-d735aaa2463a")
+	)
+	(wire
+		(pts
+			(xy 177.8 39.37) (xy 175.26 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1110aac0-f3b1-44cb-b9d9-283a063e495d")
-	)
-	(wire
-		(pts
-			(xy 149.86 34.29) (xy 149.86 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13078102-1a05-4351-8281-7ab88beaad2b")
 	)
 	(wire
 		(pts
@@ -2485,7 +2892,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 48.26) (xy 189.23 48.26)
+			(xy 177.8 49.53) (xy 189.23 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2515,6 +2922,36 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 35.56) (xy 149.86 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c378b83-6b7a-4489-8434-0faa03bade63")
+	)
+	(wire
+		(pts
+			(xy 231.14 35.56) (xy 222.25 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c63e8f1-cd33-4fad-ae32-9e8f386a296e")
+	)
+	(wire
+		(pts
+			(xy 39.37 127) (xy 49.53 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c9a1ceb-ef58-404f-b50c-4b892cd71b6a")
+	)
+	(wire
+		(pts
 			(xy 36.83 60.96) (xy 36.83 59.69)
 		)
 		(stroke
@@ -2522,16 +2959,6 @@
 			(type default)
 		)
 		(uuid "1fa5da83-5aca-4b88-849d-d2e2a994acec")
-	)
-	(wire
-		(pts
-			(xy 220.98 31.75) (xy 223.52 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2129823d-cff7-4abc-b17e-466adde5addc")
 	)
 	(wire
 		(pts
@@ -2565,6 +2992,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 115.57) (xy 135.89 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2821d1e7-c1c3-4eca-b3f4-1d687ed3b61a")
+	)
+	(wire
+		(pts
 			(xy 234.95 48.26) (xy 242.57 48.26)
 		)
 		(stroke
@@ -2585,7 +3022,37 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 58.42) (xy 177.8 58.42)
+			(xy 30.48 119.38) (xy 39.37 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3084957d-94ed-4301-a9de-d0ca38c85790")
+	)
+	(wire
+		(pts
+			(xy 196.85 35.56) (xy 196.85 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31210021-db35-4756-94d7-74e386a7a4e0")
+	)
+	(wire
+		(pts
+			(xy 60.96 127) (xy 67.31 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "336f400e-9dcf-4183-aaa6-2a67dc2005f1")
+	)
+	(wire
+		(pts
+			(xy 175.26 58.42) (xy 176.53 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2615,7 +3082,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 38.1) (xy 128.27 38.1)
+			(xy 130.81 39.37) (xy 128.27 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2635,7 +3102,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 39.37) (xy 142.24 38.1)
+			(xy 142.24 40.64) (xy 142.24 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2645,7 +3112,27 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 46.99) (xy 177.8 48.26)
+			(xy 30.48 125.73) (xy 30.48 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40a896b4-3115-4f6e-bf36-4c82a49ebfc2")
+	)
+	(wire
+		(pts
+			(xy 176.53 58.42) (xy 177.8 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42b46113-a329-4a3e-9892-ec057b0f67e5")
+	)
+	(wire
+		(pts
+			(xy 177.8 48.26) (xy 177.8 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2655,7 +3142,17 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 48.26) (xy 196.85 48.26)
+			(xy 17.78 58.42) (xy 17.78 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "434530f6-7352-4358-bee0-7248223f6b03")
+	)
+	(wire
+		(pts
+			(xy 189.23 49.53) (xy 196.85 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2675,16 +3172,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 31.75) (xy 130.81 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "466ffb9e-8802-452d-b805-a699f5b1cd07")
-	)
-	(wire
-		(pts
 			(xy 234.95 38.1) (xy 223.52 38.1)
 		)
 		(stroke
@@ -2695,7 +3182,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 46.99) (xy 142.24 48.26)
+			(xy 142.24 48.26) (xy 142.24 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2705,7 +3192,27 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 48.26) (xy 142.24 48.26)
+			(xy 176.53 58.42) (xy 176.53 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a75786b-19ea-4c82-92db-35e01ecc4fc6")
+	)
+	(wire
+		(pts
+			(xy 193.04 35.56) (xy 196.85 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bcd35ec-aed2-4e7e-b224-b47883f53fd7")
+	)
+	(wire
+		(pts
+			(xy 130.81 49.53) (xy 142.24 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2715,7 +3222,17 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 48.26) (xy 196.85 50.8)
+			(xy 17.78 44.45) (xy 26.67 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cd8dfe8-0454-4cb4-adba-f17f4fb328a5")
+	)
+	(wire
+		(pts
+			(xy 196.85 34.29) (xy 196.85 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2732,6 +3249,16 @@
 			(type default)
 		)
 		(uuid "4eaa13a3-a81f-4e05-a90c-163fb449a04d")
+	)
+	(wire
+		(pts
+			(xy 137.16 35.56) (xy 127 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51b2e424-2959-4101-bf69-bf7c77891644")
 	)
 	(wire
 		(pts
@@ -2755,17 +3282,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 31.75) (xy 177.8 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "564bf810-9aaf-44e8-b4c8-2e261ff36ef5")
-	)
-	(wire
-		(pts
-			(xy 49.53 119.38) (xy 67.31 119.38)
+			(xy 49.53 119.38) (xy 60.96 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2795,7 +3312,17 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 38.1) (xy 130.81 38.1)
+			(xy 39.37 125.73) (xy 39.37 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b9c40ac-011d-4a46-b385-19fdca9bf110")
+	)
+	(wire
+		(pts
+			(xy 142.24 39.37) (xy 130.81 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2815,7 +3342,27 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 58.42) (xy 130.81 58.42)
+			(xy 127 35.56) (xy 127 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63eccd63-532d-49cf-8d14-517409d76cf4")
+	)
+	(wire
+		(pts
+			(xy 60.96 125.73) (xy 60.96 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64022806-65d2-4219-8009-78ac2369f8be")
+	)
+	(wire
+		(pts
+			(xy 124.46 58.42) (xy 128.27 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2825,13 +3372,23 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 58.42) (xy 223.52 58.42)
+			(xy 220.98 58.42) (xy 222.25 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6c0c7be6-b2ca-49fd-9f76-965174a3394e")
+	)
+	(wire
+		(pts
+			(xy 176.53 74.93) (xy 176.53 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6da579eb-f1ab-4446-85bf-99f9de5f431c")
 	)
 	(wire
 		(pts
@@ -2845,16 +3402,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 34.29) (xy 196.85 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7023babf-fb2d-4026-a3fd-236b9ad4b8ef")
-	)
-	(wire
-		(pts
 			(xy 234.95 39.37) (xy 234.95 38.1)
 		)
 		(stroke
@@ -2865,7 +3412,37 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 34.29) (xy 242.57 48.26)
+			(xy 17.78 60.96) (xy 26.67 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7228eccc-18b1-4d83-b0a2-1618d31c3b26")
+	)
+	(wire
+		(pts
+			(xy 17.78 53.34) (xy 17.78 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7670281d-fb35-45e9-a172-399fa394cfdb")
+	)
+	(wire
+		(pts
+			(xy 124.46 31.75) (xy 127 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76a3330a-fe71-407e-9723-f9b82878cafa")
+	)
+	(wire
+		(pts
+			(xy 242.57 34.29) (xy 242.57 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2885,6 +3462,46 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 119.38) (xy 49.53 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ac9f311-cfc9-4e5f-90c1-23d62369cc67")
+	)
+	(wire
+		(pts
+			(xy 222.25 58.42) (xy 223.52 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ad6cf8e-c5b9-49e4-afe2-bcf3d870ce99")
+	)
+	(wire
+		(pts
+			(xy 60.96 119.38) (xy 60.96 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e01845b-ec0b-43c7-a57e-d2bb8cec9dcf")
+	)
+	(wire
+		(pts
+			(xy 127 31.75) (xy 130.81 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eb34ca0-63ef-40cc-89c4-861079799955")
+	)
+	(wire
+		(pts
 			(xy 93.98 102.87) (xy 93.98 105.41)
 		)
 		(stroke
@@ -2895,13 +3512,23 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 39.37) (xy 189.23 38.1)
+			(xy 189.23 40.64) (xy 189.23 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "820f85e5-a736-414b-8f60-71d28f7ff981")
+	)
+	(wire
+		(pts
+			(xy 149.86 34.29) (xy 149.86 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8290a233-8375-461a-bbdd-44c189278bae")
 	)
 	(wire
 		(pts
@@ -2915,7 +3542,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 46.99) (xy 189.23 48.26)
+			(xy 189.23 48.26) (xy 189.23 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2925,7 +3552,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 48.26) (xy 149.86 48.26)
+			(xy 142.24 49.53) (xy 149.86 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2935,7 +3562,17 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 39.37) (xy 177.8 38.1)
+			(xy 176.53 31.75) (xy 177.8 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9291b05d-896c-445b-8f52-9bff55d5410f")
+	)
+	(wire
+		(pts
+			(xy 177.8 40.64) (xy 177.8 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2955,13 +3592,43 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 48.26) (xy 149.86 50.8)
+			(xy 30.48 127) (xy 39.37 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9bc5cd5b-0342-4988-910e-993b5c3814b7")
+		(uuid "9ab51097-b4cd-4c69-a196-1dad7a6c037c")
+	)
+	(wire
+		(pts
+			(xy 39.37 46.99) (xy 52.07 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b981f1e-2c15-4634-a2c4-188b289c63ee")
+	)
+	(wire
+		(pts
+			(xy 222.25 35.56) (xy 222.25 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cccc674-f3e8-4fce-99e2-195a4234dcb6")
+	)
+	(wire
+		(pts
+			(xy 222.25 31.75) (xy 223.52 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0eb947e-386e-4fdf-8adf-360d293fc4a5")
 	)
 	(wire
 		(pts
@@ -3005,13 +3672,23 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 46.99) (xy 130.81 48.26)
+			(xy 130.81 48.26) (xy 130.81 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a5d5b01b-2903-45d2-b651-e2ad0a5980ee")
+	)
+	(wire
+		(pts
+			(xy 13.97 44.45) (xy 17.78 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af17fda0-8cc4-4065-9e81-50588169455e")
 	)
 	(wire
 		(pts
@@ -3022,6 +3699,36 @@
 			(type default)
 		)
 		(uuid "b531a3e7-8132-48d6-a7c9-153b270af886")
+	)
+	(wire
+		(pts
+			(xy 242.57 35.56) (xy 242.57 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b843719c-fbae-45d6-8f49-0774ca4230ba")
+	)
+	(wire
+		(pts
+			(xy 30.48 119.38) (xy 30.48 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be069af4-4184-479b-9e8e-a42f3e2562b2")
+	)
+	(wire
+		(pts
+			(xy 128.27 58.42) (xy 130.81 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c22eb14b-2983-45cc-9a0b-74c308f508cc")
 	)
 	(wire
 		(pts
@@ -3055,6 +3762,46 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 35.56) (xy 176.53 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c768904f-a636-43d1-8dd7-7b03b6adaf00")
+	)
+	(wire
+		(pts
+			(xy 222.25 73.66) (xy 222.25 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8667d32-6d19-4e2d-ba9c-60b107d2f2e2")
+	)
+	(wire
+		(pts
+			(xy 144.78 35.56) (xy 149.86 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca227fb0-b313-49be-8818-02e41cfd7e5b")
+	)
+	(wire
+		(pts
+			(xy 128.27 68.58) (xy 128.27 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca8a9aff-2238-4200-bbed-6c3e4533c454")
+	)
+	(wire
+		(pts
 			(xy 102.87 31.75) (xy 106.68 31.75)
 		)
 		(stroke
@@ -3075,7 +3822,27 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 119.38) (xy 49.53 119.38)
+			(xy 238.76 35.56) (xy 242.57 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce16d318-8099-4810-bd7b-df6d68efa3bd")
+	)
+	(wire
+		(pts
+			(xy 60.96 119.38) (xy 67.31 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceb55a34-aee9-4cce-880d-7ecc4cf0d6a3")
+	)
+	(wire
+		(pts
+			(xy 27.94 119.38) (xy 30.48 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3115,7 +3882,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 38.1) (xy 177.8 38.1)
+			(xy 189.23 39.37) (xy 177.8 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3125,7 +3892,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 39.37) (xy 130.81 38.1)
+			(xy 130.81 40.64) (xy 130.81 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3135,7 +3902,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 127) (xy 49.53 127)
+			(xy 27.94 127) (xy 30.48 127)
 		)
 		(stroke
 			(width 0)
@@ -3152,6 +3919,16 @@
 			(type default)
 		)
 		(uuid "dec4f855-7a10-4ad2-a9a8-d421e17f43a1")
+	)
+	(wire
+		(pts
+			(xy 135.89 102.87) (xy 135.89 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df68679a-91f5-4b32-9775-d4188472704d")
 	)
 	(wire
 		(pts
@@ -3185,6 +3962,46 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 49.53) (xy 196.85 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebcd0fde-7efb-431d-a367-f3b676fc5f34")
+	)
+	(wire
+		(pts
+			(xy 149.86 49.53) (xy 149.86 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec9a4da2-c893-4ecb-b9c2-cea4d790b628")
+	)
+	(wire
+		(pts
+			(xy 220.98 31.75) (xy 222.25 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5d30026-0066-4f13-9bfc-c79cdb401222")
+	)
+	(wire
+		(pts
+			(xy 39.37 119.38) (xy 39.37 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9adecda-14fd-4a32-96d2-12ca1d0179cb")
+	)
+	(wire
+		(pts
 			(xy 223.52 46.99) (xy 223.52 48.26)
 		)
 		(stroke
@@ -3192,6 +4009,16 @@
 			(type default)
 		)
 		(uuid "fb0f1787-77a8-4d95-beae-24ded86b701b")
+	)
+	(wire
+		(pts
+			(xy 222.25 58.42) (xy 222.25 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdf82144-b7bf-4f33-96b7-2436eb10e576")
 	)
 	(global_label "PD2"
 		(shape input)
@@ -3291,7 +4118,7 @@
 	)
 	(global_label "BSTU"
 		(shape input)
-		(at 128.27 38.1 180)
+		(at 128.27 39.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3301,7 +4128,7 @@
 		)
 		(uuid "1e91a25f-7914-4573-b31a-e63f206fdd15")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.5072 38.1 0)
+			(at 120.5072 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3315,7 +4142,7 @@
 	)
 	(global_label "LGU"
 		(shape input)
-		(at 128.27 58.42 180)
+		(at 124.46 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3325,7 +4152,7 @@
 		)
 		(uuid "1fcae663-1b87-4f96-9caf-10f27e39b56b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.6562 58.42 0)
+			(at 117.8462 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3673,6 +4500,30 @@
 			)
 		)
 	)
+	(global_label "VCC_12"
+		(shape input)
+		(at 36.83 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "79127466-31a3-4b47-a445-c24b79e1c4cd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.8296 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "VSU"
 		(shape input)
 		(at 149.86 36.83 0)
@@ -3718,6 +4569,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "BATT_VOLT"
+		(shape input)
+		(at 135.89 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "851e6afb-d270-42d1-820a-bd76ddff3856")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.2286 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -3790,6 +4665,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "BATT_VOLT"
+		(shape input)
+		(at 52.07 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ac8a6c46-5b27-4bbb-959c-0d8875bb1edb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.4086 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -3961,9 +4860,33 @@
 			)
 		)
 	)
+	(global_label "VCC_12"
+		(shape input)
+		(at 43.18 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dd26c363-3b72-42f0-86fc-0682a21a9609")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.1804 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "HGU"
 		(shape input)
-		(at 128.27 31.75 180)
+		(at 124.46 31.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3973,7 +4896,7 @@
 		)
 		(uuid "e36287f7-3afb-40e5-a169-2b22f39e1f57")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.3538 31.75 0)
+			(at 117.5438 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4083,7 +5006,7 @@
 	)
 	(global_label "BSTV"
 		(shape input)
-		(at 175.26 38.1 180)
+		(at 175.26 39.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4093,7 +5016,7 @@
 		)
 		(uuid "fb9b5e27-8018-40e6-94ee-f1d8d402b039")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.7391 38.1 0)
+			(at 167.7391 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4262,6 +5185,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 39.37 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14e3d1da-3fce-4123-9b88-418e064e530c")
+		(property "Reference" "C2"
+			(at 41.91 121.9262 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 41.91 124.4662 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 39.37 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 39.37 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8e19f431-79b8-47f9-a8e5-49ac8c2abfd2")
+		)
+		(pin "1"
+			(uuid "8152d0cc-038f-4d0f-99a7-dd2d791dc8a5")
+		)
+		(instances
+			(project "hardware"
+				(path "/c3e282ef-3af7-40a2-818f-0507e6c2dd21"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 93.98 99.06 0)
 		(unit 1)
@@ -4416,6 +5421,88 @@
 			(project "hardware"
 				(path "/c3e282ef-3af7-40a2-818f-0507e6c2dd21"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 128.27 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f1a2d8c-ea39-4d94-acef-d5c885540df8")
+		(property "Reference" "R15"
+			(at 130.81 63.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 130.81 66.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 126.492 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 128.27 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1a0b757f-590b-45c3-8799-3ef80d9974f8")
+		)
+		(pin "2"
+			(uuid "664f4c2a-5634-4636-b45e-793f91e76f8a")
+		)
+		(instances
+			(project "hardware"
+				(path "/c3e282ef-3af7-40a2-818f-0507e6c2dd21"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -4742,8 +5829,8 @@
 		)
 	)
 	(symbol
-		(lib_id "AON6500:AON6500")
-		(at 194.31 29.21 0)
+		(lib_id "Device:C_Small")
+		(at 60.96 123.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4752,9 +5839,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4e22c6fe-2552-45ff-a854-c5a2cb5c163d")
-		(property "Reference" "Q3"
-			(at 200.66 27.9399 0)
+		(uuid "49381f4b-992d-4ec0-a8b2-dbdac2f58015")
+		(property "Reference" "C6"
+			(at 63.5 121.9262 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4764,8 +5851,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AON6500"
-			(at 200.66 30.4799 0)
+		(property "Value" "10u"
+			(at 63.5 124.4662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4775,8 +5862,90 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AON6500:TRANS_AON6500"
-			(at 194.31 29.21 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 60.96 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 60.96 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "94cac9e0-f847-46d9-b45b-65ad5c7903cd")
+		)
+		(pin "1"
+			(uuid "048a55a9-f332-4076-a5ac-fc8ec1b757f3")
+		)
+		(instances
+			(project "hardware"
+				(path "/c3e282ef-3af7-40a2-818f-0507e6c2dd21"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AOD514:AOD514")
+		(at 240.03 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e942cde-15c8-4b89-8aeb-c5ca351b26c5")
+		(property "Reference" "Q10"
+			(at 246.38 54.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AOD514"
+			(at 246.38 57.1499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AOD514:TRANS_AOD514"
+			(at 240.03 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4788,7 +5957,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 29.21 0)
+			(at 240.03 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4798,19 +5967,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 194.31 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" "Alpha &"
-			(at 194.31 29.21 0)
+		(property "Description" "N-Channel 30V 17A (Ta), 46A (Tc) 2.5W (Ta), 50W (Tc) Surface Mount TO-252, (D-Pak)"
+			(at 240.03 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4821,8 +5979,8 @@
 				(justify bottom)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1 mm"
-			(at 194.31 29.21 0)
+		(property "MF" "Alpha & Omega Semiconductor Inc."
+			(at 240.03 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4833,8 +5991,20 @@
 				(justify bottom)
 			)
 		)
-		(property "Package" "DFN-8 Alpha &amp; Omega Semiconductor"
-			(at 194.31 29.21 0)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.4 mm"
+			(at 240.03 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 240.03 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4846,7 +6016,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 194.31 29.21 0)
+			(at 240.03 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4857,8 +6027,8 @@
 				(justify bottom)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/AON6500/Alpha/view-part/?ref=eda"
-			(at 194.31 29.21 0)
+		(property "Check_prices" "https://www.snapeda.com/parts/AOD514/Alpha/view-part/?ref=eda"
+			(at 240.03 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4869,8 +6039,8 @@
 				(justify bottom)
 			)
 		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 194.31 29.21 0)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at 240.03 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4881,8 +6051,8 @@
 				(justify bottom)
 			)
 		)
-		(property "PARTREV" "F"
-			(at 194.31 29.21 0)
+		(property "PARTREV" "V"
+			(at 240.03 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4893,8 +6063,8 @@
 				(justify bottom)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AON6500/Alpha/view-part/?ref=snap"
-			(at 194.31 29.21 0)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AOD514/Alpha/view-part/?ref=snap"
+			(at 240.03 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4905,20 +6075,8 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "AON6500"
-			(at 194.31 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Description_1" "N-Channel 30 V 71A (Ta), 200A (Tc) 7.3W (Ta), 83W (Tc) Surface Mount 8-DFN (5x6)"
-			(at 194.31 29.21 0)
+		(property "MP" "AOD514"
+			(at 240.03 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4930,7 +6088,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 194.31 29.21 0)
+			(at 240.03 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4941,8 +6099,8 @@
 				(justify bottom)
 			)
 		)
-		(property "MANUFACTURER" "Alpha and Omega"
-			(at 194.31 29.21 0)
+		(property "MANUFACTURER" "Alpha & Omega Semiconductor"
+			(at 240.03 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4952,26 +6110,182 @@
 				)
 				(justify bottom)
 			)
-		)
-		(pin "4"
-			(uuid "cd019e51-12ac-4260-b517-2526051bc665")
-		)
-		(pin "5_8"
-			(uuid "c1639378-ec65-44f4-97be-f16a88646bec")
-		)
-		(pin "1"
-			(uuid "ea838607-c833-4624-b0aa-ba4d61dfaf2c")
-		)
-		(pin "2"
-			(uuid "b33eab2e-01f7-4ad4-9f25-f126bfaf5c72")
 		)
 		(pin "3"
-			(uuid "32adc1c8-1468-49a0-ba52-0ab69b66e3f8")
+			(uuid "49fe6ff0-fc6a-454b-a901-085e7401b479")
+		)
+		(pin "4"
+			(uuid "6c3774d5-d750-48b8-b08b-467677036c72")
+		)
+		(pin "1"
+			(uuid "2c4673db-9fea-46a5-b819-e752c86d50f5")
 		)
 		(instances
 			(project "hardware"
 				(path "/c3e282ef-3af7-40a2-818f-0507e6c2dd21"
-					(reference "Q3")
+					(reference "Q10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 38.1 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f716d7e-dbf5-49dc-a02a-d139c406b635")
+		(property "Reference" "JP1"
+			(at 38.1 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Open"
+			(at 38.1 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 38.1 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 38.1 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4c89f2df-9af8-4856-95fb-8831e7934dba")
+		)
+		(pin "1"
+			(uuid "446639a3-8116-430c-8ab4-1726f5fca40d")
+		)
+		(instances
+			(project "hardware"
+				(path "/c3e282ef-3af7-40a2-818f-0507e6c2dd21"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 135.89 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5565d922-d97e-402f-8d5f-cff096e67b06")
+		(property "Reference" "R21"
+			(at 138.43 97.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33k"
+			(at 138.43 100.3299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 134.112 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 135.89 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8d601095-f1e3-4b33-bfef-e05fbb3f6116")
+		)
+		(pin "2"
+			(uuid "74325029-0d6f-4fd2-b5c2-72a3000396e5")
+		)
+		(instances
+			(project "hardware"
+				(path "/c3e282ef-3af7-40a2-818f-0507e6c2dd21"
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -5060,242 +6374,6 @@
 		)
 	)
 	(symbol
-		(lib_id "AON6500:AON6500")
-		(at 240.03 55.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "60aa33b0-24a4-4d82-8e29-4a1f983790ed")
-		(property "Reference" "Q6"
-			(at 246.38 54.6099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AON6500"
-			(at 246.38 57.1499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "AON6500:TRANS_AON6500"
-			(at 240.03 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 240.03 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" "Alpha &"
-			(at 240.03 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1 mm"
-			(at 240.03 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "DFN-8 Alpha &amp; Omega Semiconductor"
-			(at 240.03 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 240.03 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/AON6500/Alpha/view-part/?ref=eda"
-			(at 240.03 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 240.03 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "F"
-			(at 240.03 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AON6500/Alpha/view-part/?ref=snap"
-			(at 240.03 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "AON6500"
-			(at 240.03 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Description_1" "N-Channel 30 V 71A (Ta), 200A (Tc) 7.3W (Ta), 83W (Tc) Surface Mount 8-DFN (5x6)"
-			(at 240.03 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 240.03 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Alpha and Omega"
-			(at 240.03 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "4"
-			(uuid "adf698d4-7e73-4c09-8769-40f87f7a9993")
-		)
-		(pin "5_8"
-			(uuid "a0398032-d931-4a88-bccb-74c78a0ec313")
-		)
-		(pin "1"
-			(uuid "ad081e69-46a8-4f76-a29e-07d04529c874")
-		)
-		(pin "2"
-			(uuid "f6413551-a74a-45ce-be92-55a9eb281ac9")
-		)
-		(pin "3"
-			(uuid "57b9cb4f-99d1-4bc7-a3eb-c4dab6e46646")
-		)
-		(instances
-			(project "hardware"
-				(path "/c3e282ef-3af7-40a2-818f-0507e6c2dd21"
-					(reference "Q6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint_Alt")
 		(at 113.03 44.45 270)
 		(unit 1)
@@ -5374,7 +6452,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 26.67 44.45 90)
+		(at 13.97 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5382,10 +6460,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "64e93c0b-4a79-4516-a657-7db5bc058cac")
 		(property "Reference" "#PWR08"
-			(at 30.48 44.45 0)
+			(at 13.97 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5396,7 +6473,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 22.86 44.4499 90)
+			(at 16.51 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5407,7 +6484,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 44.45 0)
+			(at 13.97 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5418,7 +6495,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 44.45 0)
+			(at 13.97 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5429,7 +6506,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 26.67 44.45 0)
+			(at 13.97 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5446,6 +6523,84 @@
 			(project "hardware"
 				(path "/c3e282ef-3af7-40a2-818f-0507e6c2dd21"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 135.89 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69801f9d-0d7a-446e-82f5-9be3a9e2b537")
+		(property "Reference" "#PWR023"
+			(at 135.89 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 135.89 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 135.89 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5256663e-2051-464e-b181-29e43a75ebe8")
+		)
+		(instances
+			(project "hardware"
+				(path "/c3e282ef-3af7-40a2-818f-0507e6c2dd21"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -5533,7 +6688,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 189.23 43.18 180)
+		(at 189.23 44.45 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5543,7 +6698,7 @@
 		(dnp no)
 		(uuid "6ed86b02-30a9-4708-ad44-9b9ce7564496")
 		(property "Reference" "C10"
-			(at 191.77 41.91 0)
+			(at 191.77 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5554,7 +6709,7 @@
 			)
 		)
 		(property "Value" "2.2µF"
-			(at 191.77 44.45 0)
+			(at 191.77 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5565,7 +6720,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 188.2648 39.37 0)
+			(at 188.2648 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5576,7 +6731,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 43.18 0)
+			(at 189.23 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5587,7 +6742,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 189.23 43.18 0)
+			(at 189.23 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5853,8 +7008,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 52.07 46.99 90)
+		(lib_id "Device:C_Small")
+		(at 17.78 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5863,20 +7018,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "77aa63f4-1b85-41c5-84e3-23b4c494a656")
-		(property "Reference" "#PWR07"
-			(at 55.88 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 48.26 46.9899 90)
+		(uuid "748a005f-12d0-49f6-96da-2cafbfc524eb")
+		(property "Reference" "C13"
+			(at 20.32 54.6162 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5886,8 +7030,19 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 52.07 46.99 0)
+		(property "Value" "100n"
+			(at 20.32 57.1562 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 17.78 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5898,7 +7053,89 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 46.99 0)
+			(at 17.78 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 17.78 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6f9cda0c-1c68-4d93-a556-570f92b9dd79")
+		)
+		(pin "1"
+			(uuid "c2b5c909-0fe7-4e3f-bdb3-a868c3848071")
+		)
+		(instances
+			(project "hardware"
+				(path "/c3e282ef-3af7-40a2-818f-0507e6c2dd21"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 39.37 46.99 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77aa63f4-1b85-41c5-84e3-23b4c494a656")
+		(property "Reference" "#PWR07"
+			(at 43.18 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 35.56 46.9899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5909,7 +7146,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 52.07 46.99 0)
+			(at 39.37 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6011,6 +7248,304 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 140.97 35.56 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7a16ea77-c50b-49bd-9e10-b840a2d11b1b")
+		(property "Reference" "R20"
+			(at 140.97 37.846 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 140.97 33.528 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 140.97 33.782 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 140.97 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2ac9543d-cafd-4060-a2a6-612b547ddc66")
+		)
+		(pin "2"
+			(uuid "f8f3dac0-721f-423c-83c1-34e45fdf0094")
+		)
+		(instances
+			(project "hardware"
+				(path "/c3e282ef-3af7-40a2-818f-0507e6c2dd21"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AOD514:AOD514")
+		(at 240.03 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b99074e-68c3-42d5-9709-bc4efadde8d0")
+		(property "Reference" "Q9"
+			(at 246.38 27.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AOD514"
+			(at 246.38 30.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AOD514:TRANS_AOD514"
+			(at 240.03 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-Channel 30V 17A (Ta), 46A (Tc) 2.5W (Ta), 50W (Tc) Surface Mount TO-252, (D-Pak)"
+			(at 240.03 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Alpha & Omega Semiconductor Inc."
+			(at 240.03 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.4 mm"
+			(at 240.03 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 240.03 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 240.03 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/AOD514/Alpha/view-part/?ref=eda"
+			(at 240.03 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at 240.03 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "V"
+			(at 240.03 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AOD514/Alpha/view-part/?ref=snap"
+			(at 240.03 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "AOD514"
+			(at 240.03 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 240.03 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Alpha & Omega Semiconductor"
+			(at 240.03 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "3"
+			(uuid "52bafbe9-ac57-432a-9b44-b20b7c7757c6")
+		)
+		(pin "4"
+			(uuid "bede02e1-6c24-4c5e-8b9a-724ff473b6e9")
+		)
+		(pin "1"
+			(uuid "6425eb42-b403-4a51-8b36-1bff271f188a")
+		)
+		(instances
+			(project "hardware"
+				(path "/c3e282ef-3af7-40a2-818f-0507e6c2dd21"
+					(reference "Q9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 59.69 99.06 0)
 		(unit 1)
 		(body_style 1)
@@ -6092,6 +7627,303 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 128.27 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c4349d7-272d-49b6-993e-7a57e6d291c9")
+		(property "Reference" "#PWR011"
+			(at 128.27 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.27 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "214229be-f82f-4697-a63d-6ac54af8575a")
+		)
+		(instances
+			(project "hardware"
+				(path "/c3e282ef-3af7-40a2-818f-0507e6c2dd21"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AOD514:AOD514")
+		(at 147.32 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7cd99564-0fae-45fa-bf80-c583a14d43c5")
+		(property "Reference" "Q12"
+			(at 153.67 54.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AOD514"
+			(at 153.67 57.1499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AOD514:TRANS_AOD514"
+			(at 147.32 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-Channel 30V 17A (Ta), 46A (Tc) 2.5W (Ta), 50W (Tc) Surface Mount TO-252, (D-Pak)"
+			(at 147.32 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Alpha & Omega Semiconductor Inc."
+			(at 147.32 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.4 mm"
+			(at 147.32 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 147.32 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 147.32 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/AOD514/Alpha/view-part/?ref=eda"
+			(at 147.32 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at 147.32 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "V"
+			(at 147.32 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AOD514/Alpha/view-part/?ref=snap"
+			(at 147.32 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "AOD514"
+			(at 147.32 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 147.32 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Alpha & Omega Semiconductor"
+			(at 147.32 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "3"
+			(uuid "d7e926d6-59a0-49e5-92d6-53338ebf43c8")
+		)
+		(pin "4"
+			(uuid "d330c101-d6fd-4233-86f5-7e5eda24b25f")
+		)
+		(pin "1"
+			(uuid "d83b012c-1ade-415b-aefb-ee38419f7577")
+		)
+		(instances
+			(project "hardware"
+				(path "/c3e282ef-3af7-40a2-818f-0507e6c2dd21"
+					(reference "Q12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+BATT")
 		(at 67.31 119.38 270)
 		(unit 1)
@@ -6165,6 +7997,242 @@
 			(project "hardware"
 				(path "/c3e282ef-3af7-40a2-818f-0507e6c2dd21"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.53 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a4bceec-c1e5-49f3-9d5c-1a83b9491329")
+		(property "Reference" "#PWR016"
+			(at 176.53 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.53 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 176.53 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7203c671-0b82-410e-867d-48f94d66a893")
+		)
+		(instances
+			(project "hardware"
+				(path "/c3e282ef-3af7-40a2-818f-0507e6c2dd21"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 234.95 35.56 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8a598cd7-7ecf-4020-8e57-dbde239685c6")
+		(property "Reference" "R18"
+			(at 236.982 37.846 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 234.95 33.528 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 234.95 37.338 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 234.95 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7be544a1-9373-4d03-8471-1ec3c9c8f624")
+		)
+		(pin "2"
+			(uuid "ad880463-75a4-4ff2-8682-618277418749")
+		)
+		(instances
+			(project "hardware"
+				(path "/c3e282ef-3af7-40a2-818f-0507e6c2dd21"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 33.02 146.05 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e6c6bda-aaa9-42be-bdfe-e4cf734bc160")
+		(property "Reference" "#PWR021"
+			(at 36.83 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 29.21 146.0499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 33.02 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0f9f0c33-2543-45b2-9876-d148232b477f")
+		)
+		(instances
+			(project "hardware"
+				(path "/c3e282ef-3af7-40a2-818f-0507e6c2dd21"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -6493,6 +8561,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 30.48 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa361779-80db-4247-b3f3-e24a7d018c7a")
+		(property "Reference" "C4"
+			(at 33.02 121.9262 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 33.02 124.4662 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 30.48 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 30.48 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1cbfc6d5-2bd1-4aa4-85cc-107ab0bbdcc2")
+		)
+		(pin "1"
+			(uuid "8c33b376-aacd-4d73-8cd4-0093291a3160")
+		)
+		(instances
+			(project "hardware"
+				(path "/c3e282ef-3af7-40a2-818f-0507e6c2dd21"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 93.98 86.36 0)
 		(unit 1)
@@ -6569,242 +8719,6 @@
 			(project "hardware"
 				(path "/c3e282ef-3af7-40a2-818f-0507e6c2dd21"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AON6500:AON6500")
-		(at 240.03 29.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b13461c2-70b4-4465-8514-4f877ebe14a2")
-		(property "Reference" "Q5"
-			(at 246.38 27.9399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AON6500"
-			(at 246.38 30.4799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "AON6500:TRANS_AON6500"
-			(at 240.03 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 240.03 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" "Alpha &"
-			(at 240.03 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1 mm"
-			(at 240.03 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "DFN-8 Alpha &amp; Omega Semiconductor"
-			(at 240.03 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 240.03 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/AON6500/Alpha/view-part/?ref=eda"
-			(at 240.03 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 240.03 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "F"
-			(at 240.03 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AON6500/Alpha/view-part/?ref=snap"
-			(at 240.03 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "AON6500"
-			(at 240.03 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Description_1" "N-Channel 30 V 71A (Ta), 200A (Tc) 7.3W (Ta), 83W (Tc) Surface Mount 8-DFN (5x6)"
-			(at 240.03 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 240.03 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Alpha and Omega"
-			(at 240.03 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "4"
-			(uuid "8fde68b4-1745-4c10-926a-9dc828c31199")
-		)
-		(pin "5_8"
-			(uuid "014f2d1b-452d-4439-8940-13ffa55edcc4")
-		)
-		(pin "1"
-			(uuid "9f8693e8-654c-4f5c-9094-3f0b6d6ae6c6")
-		)
-		(pin "2"
-			(uuid "36084de2-edd2-43b7-864a-ae9231b35901")
-		)
-		(pin "3"
-			(uuid "b4554147-67de-4ee9-8b58-498bfc32549e")
-		)
-		(instances
-			(project "hardware"
-				(path "/c3e282ef-3af7-40a2-818f-0507e6c2dd21"
-					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -6971,8 +8885,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 130.81 43.18 0)
+		(lib_id "Device:R")
+		(at 189.23 35.56 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6980,31 +8894,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "c0d74c40-1f9f-4290-92b0-d4ca103e285f")
-		(property "Reference" "C1"
-			(at 133.35 41.91 0)
+		(uuid "bfd56758-4c65-4846-acbf-3767ac3502ea")
+		(property "Reference" "R19"
+			(at 189.23 37.846 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 133.35 44.45 0)
+		(property "Value" "100k"
+			(at 189.23 33.528 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 131.7752 46.99 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 189.23 33.782 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7015,7 +8927,88 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 43.18 0)
+			(at 189.23 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 189.23 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ddf44304-ec2e-4cee-8368-ac844416bc57")
+		)
+		(pin "2"
+			(uuid "7b1721a7-6a78-428b-8742-5d7cd52194ea")
+		)
+		(instances
+			(project "hardware"
+				(path "/c3e282ef-3af7-40a2-818f-0507e6c2dd21"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 130.81 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c0d74c40-1f9f-4290-92b0-d4ca103e285f")
+		(property "Reference" "C1"
+			(at 133.35 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 133.35 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 131.7752 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7026,7 +9019,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 130.81 43.18 0)
+			(at 130.81 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7052,8 +9045,8 @@
 		)
 	)
 	(symbol
-		(lib_id "AON6500:AON6500")
-		(at 147.32 29.21 0)
+		(lib_id "Device:R")
+		(at 176.53 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7062,9 +9055,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cd822187-c052-40df-a48e-234fa2d27f95")
-		(property "Reference" "Q1"
-			(at 153.67 27.9399 0)
+		(uuid "cd35a635-9fb0-4fce-ac18-2a5ab81a6622")
+		(property "Reference" "R16"
+			(at 179.07 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7074,8 +9067,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AON6500"
-			(at 153.67 30.4799 0)
+		(property "Value" "100k"
+			(at 179.07 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7085,8 +9078,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AON6500:TRANS_AON6500"
-			(at 147.32 29.21 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 174.752 71.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7094,11 +9087,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 29.21 0)
+			(at 176.53 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7108,8 +9100,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 147.32 29.21 0)
+		(property "Description" "Resistor"
+			(at 176.53 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7118,170 +9110,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "MF" "Alpha &"
-			(at 147.32 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1 mm"
-			(at 147.32 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "DFN-8 Alpha &amp; Omega Semiconductor"
-			(at 147.32 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 147.32 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/AON6500/Alpha/view-part/?ref=eda"
-			(at 147.32 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 147.32 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "F"
-			(at 147.32 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AON6500/Alpha/view-part/?ref=snap"
-			(at 147.32 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "AON6500"
-			(at 147.32 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Description_1" "N-Channel 30 V 71A (Ta), 200A (Tc) 7.3W (Ta), 83W (Tc) Surface Mount 8-DFN (5x6)"
-			(at 147.32 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 147.32 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Alpha and Omega"
-			(at 147.32 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "4"
-			(uuid "d4602ef4-1619-44ed-a290-c9ea4bd091e8")
-		)
-		(pin "5_8"
-			(uuid "4d546755-cb2f-438c-af61-9f2facf6574b")
 		)
 		(pin "1"
-			(uuid "d332646b-9f4e-4778-be44-5690bb10db56")
+			(uuid "01fb1c08-9f9d-4211-ba2b-7d2c4aeb78e2")
 		)
 		(pin "2"
-			(uuid "7df89119-7d2a-4f17-88cf-9d9c9ef1f266")
-		)
-		(pin "3"
-			(uuid "483e3fce-761d-4315-a5ce-44ae55692d14")
+			(uuid "e4582bce-c5d4-4d60-9891-581595763694")
 		)
 		(instances
 			(project "hardware"
 				(path "/c3e282ef-3af7-40a2-818f-0507e6c2dd21"
-					(reference "Q1")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -7367,7 +9206,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 142.24 43.18 180)
+		(at 142.24 44.45 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7377,7 +9216,7 @@
 		(dnp no)
 		(uuid "cf33993d-09a9-4626-8e32-3a3fd65a396a")
 		(property "Reference" "C9"
-			(at 144.78 41.91 0)
+			(at 144.78 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7388,7 +9227,7 @@
 			)
 		)
 		(property "Value" "2.2µF"
-			(at 144.78 44.45 0)
+			(at 144.78 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7399,7 +9238,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 141.2748 39.37 0)
+			(at 141.2748 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7410,7 +9249,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 43.18 0)
+			(at 142.24 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7421,7 +9260,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 142.24 43.18 0)
+			(at 142.24 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7528,242 +9367,6 @@
 		)
 	)
 	(symbol
-		(lib_id "AON6500:AON6500")
-		(at 194.31 55.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d1c96208-26c5-4bb3-8cea-576437a3e3d4")
-		(property "Reference" "Q4"
-			(at 200.66 54.6099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AON6500"
-			(at 200.66 57.1499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "AON6500:TRANS_AON6500"
-			(at 194.31 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 194.31 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" "Alpha &"
-			(at 194.31 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1 mm"
-			(at 194.31 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "DFN-8 Alpha &amp; Omega Semiconductor"
-			(at 194.31 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 194.31 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/AON6500/Alpha/view-part/?ref=eda"
-			(at 194.31 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 194.31 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "F"
-			(at 194.31 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AON6500/Alpha/view-part/?ref=snap"
-			(at 194.31 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "AON6500"
-			(at 194.31 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Description_1" "N-Channel 30 V 71A (Ta), 200A (Tc) 7.3W (Ta), 83W (Tc) Surface Mount 8-DFN (5x6)"
-			(at 194.31 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 194.31 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Alpha and Omega"
-			(at 194.31 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "4"
-			(uuid "0f822a83-0674-4f11-a45a-fc9634af9ddb")
-		)
-		(pin "5_8"
-			(uuid "d997fc25-607b-480b-864f-c5a0312aa6c1")
-		)
-		(pin "1"
-			(uuid "12e2f436-2917-4b2b-9ab1-61dee5dd9293")
-		)
-		(pin "2"
-			(uuid "10b56449-a88a-4462-af2c-b90fe68e54d8")
-		)
-		(pin "3"
-			(uuid "e9b3f867-fabb-4ccf-99f5-3e13cb3bfd3a")
-		)
-		(instances
-			(project "hardware"
-				(path "/c3e282ef-3af7-40a2-818f-0507e6c2dd21"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 149.86 69.85 0)
 		(unit 1)
@@ -7786,7 +9389,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.0005"
+		(property "Value" "0.002"
 			(at 152.4 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8086,6 +9689,225 @@
 		)
 	)
 	(symbol
+		(lib_id "AOD514:AOD514")
+		(at 147.32 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dac88372-fbb6-47cd-bbc5-d8be2268bbcc")
+		(property "Reference" "Q7"
+			(at 153.67 27.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AOD514"
+			(at 153.67 30.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AOD514:TRANS_AOD514"
+			(at 147.32 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-Channel 30V 17A (Ta), 46A (Tc) 2.5W (Ta), 50W (Tc) Surface Mount TO-252, (D-Pak)"
+			(at 147.32 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Alpha & Omega Semiconductor Inc."
+			(at 147.32 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.4 mm"
+			(at 147.32 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 147.32 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 147.32 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/AOD514/Alpha/view-part/?ref=eda"
+			(at 147.32 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at 147.32 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "V"
+			(at 147.32 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AOD514/Alpha/view-part/?ref=snap"
+			(at 147.32 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "AOD514"
+			(at 147.32 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 147.32 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Alpha & Omega Semiconductor"
+			(at 147.32 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "3"
+			(uuid "a582fcaf-3c90-453a-94b0-e0ddd0af1adc")
+		)
+		(pin "4"
+			(uuid "b4b3ce5d-fe52-4b0f-9ccf-55e48360548a")
+		)
+		(pin "1"
+			(uuid "f66836a7-40b0-48d2-93d7-1dc4afce38da")
+		)
+		(instances
+			(project "hardware"
+				(path "/c3e282ef-3af7-40a2-818f-0507e6c2dd21"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 26.67 55.88 180)
 		(unit 1)
@@ -8161,6 +9983,84 @@
 			(project "hardware"
 				(path "/c3e282ef-3af7-40a2-818f-0507e6c2dd21"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.89 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd1f5909-d948-4c54-b3ad-da35266639e3")
+		(property "Reference" "#PWR022"
+			(at 135.89 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "21776776-75b8-4e6f-86a4-01848e7352ef")
+		)
+		(instances
+			(project "hardware"
+				(path "/c3e282ef-3af7-40a2-818f-0507e6c2dd21"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -8249,6 +10149,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 222.25 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e635abed-af05-426e-8884-ada61e45fb02")
+		(property "Reference" "#PWR017"
+			(at 222.25 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 222.25 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 222.25 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2b8fdf5d-5e27-49d9-83f5-483dc9dd7d00")
+		)
+		(instances
+			(project "hardware"
+				(path "/c3e282ef-3af7-40a2-818f-0507e6c2dd21"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CH32M007G8R6:CH32M007G8R6")
 		(at 64.77 44.45 0)
 		(unit 1)
@@ -8279,7 +10257,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm"
+		(property "Footprint" "Package_SO:SSOP-28_3.9x9.9mm_P0.635mm"
 			(at 64.77 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -8407,7 +10385,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 177.8 43.18 0)
+		(at 177.8 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8417,7 +10395,7 @@
 		(dnp no)
 		(uuid "f00ea105-be77-4dc9-853b-dc5a85a169d1")
 		(property "Reference" "C3"
-			(at 180.34 41.91 0)
+			(at 180.34 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8428,7 +10406,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 180.34 44.45 0)
+			(at 180.34 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8439,7 +10417,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 178.7652 46.99 0)
+			(at 178.7652 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8450,7 +10428,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 43.18 0)
+			(at 177.8 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8461,7 +10439,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 177.8 43.18 0)
+			(at 177.8 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8722,8 +10700,8 @@
 		)
 	)
 	(symbol
-		(lib_id "AON6500:AON6500")
-		(at 147.32 55.88 0)
+		(lib_id "Device:R")
+		(at 222.25 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8732,9 +10710,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fd32ef8a-252b-4133-9dac-cd9fcfac8bd0")
-		(property "Reference" "Q2"
-			(at 153.67 54.6099 0)
+		(uuid "f70e0ea0-cfac-4ac2-b95b-3066376f90f9")
+		(property "Reference" "R17"
+			(at 224.79 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8744,8 +10722,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AON6500"
-			(at 153.67 57.1499 0)
+		(property "Value" "100k"
+			(at 224.79 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8755,8 +10733,172 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AON6500:TRANS_AON6500"
-			(at 147.32 55.88 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 220.472 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 222.25 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "52878cd8-1406-4ff4-837c-8dbd90f672c4")
+		)
+		(pin "2"
+			(uuid "154d39c3-07cf-4d0c-81a3-d5fc225a7260")
+		)
+		(instances
+			(project "hardware"
+				(path "/c3e282ef-3af7-40a2-818f-0507e6c2dd21"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 135.89 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9461909-a715-4fea-82ae-6eeb05b1db41")
+		(property "Reference" "R22"
+			(at 138.43 110.4899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 138.43 113.0299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 134.112 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 135.89 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8268430f-9293-4c19-8063-aea0a28bcac1")
+		)
+		(pin "2"
+			(uuid "2b46b1b7-30db-497c-9c86-43af8883d5c3")
+		)
+		(instances
+			(project "hardware"
+				(path "/c3e282ef-3af7-40a2-818f-0507e6c2dd21"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AOD514:AOD514")
+		(at 194.31 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9a86d0c-f8db-4bb3-bb2d-390dbbded86c")
+		(property "Reference" "Q8"
+			(at 200.66 27.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AOD514"
+			(at 200.66 30.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AOD514:TRANS_AOD514"
+			(at 194.31 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8768,7 +10910,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 55.88 0)
+			(at 194.31 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8778,19 +10920,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 147.32 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" "Alpha &"
-			(at 147.32 55.88 0)
+		(property "Description" "N-Channel 30V 17A (Ta), 46A (Tc) 2.5W (Ta), 50W (Tc) Surface Mount TO-252, (D-Pak)"
+			(at 194.31 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8801,8 +10932,8 @@
 				(justify bottom)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1 mm"
-			(at 147.32 55.88 0)
+		(property "MF" "Alpha & Omega Semiconductor Inc."
+			(at 194.31 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8813,8 +10944,20 @@
 				(justify bottom)
 			)
 		)
-		(property "Package" "DFN-8 Alpha &amp; Omega Semiconductor"
-			(at 147.32 55.88 0)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.4 mm"
+			(at 194.31 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 194.31 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8826,7 +10969,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 147.32 55.88 0)
+			(at 194.31 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8837,8 +10980,8 @@
 				(justify bottom)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/AON6500/Alpha/view-part/?ref=eda"
-			(at 147.32 55.88 0)
+		(property "Check_prices" "https://www.snapeda.com/parts/AOD514/Alpha/view-part/?ref=eda"
+			(at 194.31 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8849,8 +10992,8 @@
 				(justify bottom)
 			)
 		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 147.32 55.88 0)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at 194.31 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8861,8 +11004,8 @@
 				(justify bottom)
 			)
 		)
-		(property "PARTREV" "F"
-			(at 147.32 55.88 0)
+		(property "PARTREV" "V"
+			(at 194.31 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8873,8 +11016,8 @@
 				(justify bottom)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AON6500/Alpha/view-part/?ref=snap"
-			(at 147.32 55.88 0)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AOD514/Alpha/view-part/?ref=snap"
+			(at 194.31 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8885,20 +11028,8 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "AON6500"
-			(at 147.32 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Description_1" "N-Channel 30 V 71A (Ta), 200A (Tc) 7.3W (Ta), 83W (Tc) Surface Mount 8-DFN (5x6)"
-			(at 147.32 55.88 0)
+		(property "MP" "AOD514"
+			(at 194.31 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8910,7 +11041,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 147.32 55.88 0)
+			(at 194.31 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8921,8 +11052,8 @@
 				(justify bottom)
 			)
 		)
-		(property "MANUFACTURER" "Alpha and Omega"
-			(at 147.32 55.88 0)
+		(property "MANUFACTURER" "Alpha & Omega Semiconductor"
+			(at 194.31 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8932,26 +11063,239 @@
 				)
 				(justify bottom)
 			)
-		)
-		(pin "4"
-			(uuid "0331f6cc-4715-4910-8f13-28e231b53edc")
-		)
-		(pin "5_8"
-			(uuid "61e9be0a-e175-4769-ab1f-0a751fb30ef6")
-		)
-		(pin "1"
-			(uuid "83edd219-e21b-4692-aec4-c794918169dd")
-		)
-		(pin "2"
-			(uuid "b79c7552-5ace-420c-bee0-55dc74930e59")
 		)
 		(pin "3"
-			(uuid "288ac288-e0a5-4db6-af87-97894ab4954b")
+			(uuid "ab50e791-a49f-4f1f-9bf1-6dfc1ed23163")
+		)
+		(pin "4"
+			(uuid "4272eab3-925a-41cd-9d8f-feb0d0161519")
+		)
+		(pin "1"
+			(uuid "cb1e0165-d068-4fc0-8d51-178ac101ec0e")
 		)
 		(instances
 			(project "hardware"
 				(path "/c3e282ef-3af7-40a2-818f-0507e6c2dd21"
-					(reference "Q2")
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AOD514:AOD514")
+		(at 194.31 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbbcd57d-78a6-4732-ab17-d145e4fee9a6")
+		(property "Reference" "Q11"
+			(at 200.66 54.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AOD514"
+			(at 200.66 57.1499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AOD514:TRANS_AOD514"
+			(at 194.31 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-Channel 30V 17A (Ta), 46A (Tc) 2.5W (Ta), 50W (Tc) Surface Mount TO-252, (D-Pak)"
+			(at 194.31 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Alpha & Omega Semiconductor Inc."
+			(at 194.31 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.4 mm"
+			(at 194.31 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 194.31 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 194.31 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/AOD514/Alpha/view-part/?ref=eda"
+			(at 194.31 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at 194.31 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "V"
+			(at 194.31 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AOD514/Alpha/view-part/?ref=snap"
+			(at 194.31 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "AOD514"
+			(at 194.31 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 194.31 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Alpha & Omega Semiconductor"
+			(at 194.31 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "3"
+			(uuid "1e2a3171-1e4a-4b8c-8621-618dc3aee6bf")
+		)
+		(pin "4"
+			(uuid "f4648ff7-0e81-4a34-875a-7c9794047180")
+		)
+		(pin "1"
+			(uuid "642d1cd1-28fc-4a90-b9a6-e7990f1b01e4")
+		)
+		(instances
+			(project "hardware"
+				(path "/c3e282ef-3af7-40a2-818f-0507e6c2dd21"
+					(reference "Q11")
 					(unit 1)
 				)
 			)
