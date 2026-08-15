@@ -194,7 +194,8 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.3
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -230,6 +231,14 @@
         {
           "diameter": 0.8,
           "drill": 0.6
+        },
+        {
+          "diameter": 1.2,
+          "drill": 1.0
+        },
+        {
+          "diameter": 3.0,
+          "drill": 2.6
         }
       ],
       "zones_allow_external_fillets": false
@@ -649,7 +658,7 @@
         "uuid": "c3e282ef-3af7-40a2-818f-0507e6c2dd21"
       }
     ],
-    "used_designators": "VSU2,TH1,C1-13,U1,JP1,R1-25,D1,#PWR1-24,GND1,Q1-12,VSV2,SWIO1-2,BATT1-2,J1-2",
+    "used_designators": "VSU2,TH1,C1-15,U1,JP1,R1-25,D1,#PWR1-24,GND1,Q1-12,VSV2,SWIO1-2,BATT1-2,J1-2",
     "variants": []
   },
   "sheets": [
