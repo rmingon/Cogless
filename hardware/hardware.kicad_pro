@@ -250,7 +250,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "V0.1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -658,7 +658,7 @@
         "uuid": "c3e282ef-3af7-40a2-818f-0507e6c2dd21"
       }
     ],
-    "used_designators": "VSU2,TH1,C1-15,U1,JP1,R1-25,D1,#PWR1-24,GND1,Q1-12,VSV2,SWIO1-2,BATT1-2,J1-2",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

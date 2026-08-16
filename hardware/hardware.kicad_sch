@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "c3e282ef-3af7-40a2-818f-0507e6c2dd21")
 	(paper "A4")
+	(title_block
+		(title "Cogless")
+		(date "2026-08-16")
+		(rev "V0.1")
+		(company "Rmingon")
+	)
 	(lib_symbols
 		(symbol "AOD514:AOD514"
 			(pin_names
@@ -8119,7 +8125,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
 			(at 21.59 165.1 0)
 			(hide yes)
 			(show_name no)
