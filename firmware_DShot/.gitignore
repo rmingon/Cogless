@@ -1,0 +1,15 @@
+# MounRiver Studio build output
+obj/
+*.o
+*.d
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+
+# MounRiver Studio local workspace state
+.mrs/
+
+# macOS
+.DS_Store
